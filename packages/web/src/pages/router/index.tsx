@@ -1,7 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import { ROUTES } from './routes.enum'
 import { Home } from '@pages/home/home.page'
 import { About } from '@pages/about/about.page'
+
+import { ROUTES } from './routes.enum'
 
 const router = createBrowserRouter([
   {
