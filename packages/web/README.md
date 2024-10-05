@@ -39,6 +39,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Eslint
+
+### pre-requirements
+
+Most editors, such as VSCode, can automatically detect ESLint configuration. **Ensure you have the ESLint plugin installed in your IDE** so that linting issues are highlighted while you code.
+
+### Explanation of eslint packages
+
+- eslint: the core ESLint package.
+
+- eslint-plugin-react: plugin for React-specific linting rules.
+
+- eslint-plugin-react-hooks: plugin to ensure the rules of hooks are followed.
+
+- eslint-plugin-jsx-a11y: plugin to ensure accessibility rules in JSX.
+
+- eslint-plugin-import: plugin to manage ES6+ import/export syntax rules.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

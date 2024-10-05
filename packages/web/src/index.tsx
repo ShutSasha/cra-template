@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import reportWebVitals from './reportWebVitals'
 import { RouterProvider } from 'react-router-dom'
-import './app/styles/index.css'
-import router from './pages/router'
+import '@app/styles/index.css'
+import router from '@pages/router'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
