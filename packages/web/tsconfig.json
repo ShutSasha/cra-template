@@ -24,7 +24,7 @@
       "@hooks/*": ["hooks/*"],
       "@pages/*": ["pages/*"],
       "@shared/*": ["shared/*"],
-      "@types/*": ["types/*"],
+      "~types/*": ["types/*"],
       "@utils/*": ["utils/*"]
     },
     "jsx": "react-jsx"
